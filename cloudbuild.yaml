@@ -17,4 +17,4 @@ steps:
     - '--allow-unauthenticated'
 images:
   - gcr.io/$PROJECT_ID/amazingapp:$COMMIT_SHA
-logsBucket: gs:// cloud-run123
+logsBucket: gs://cloud-run123
